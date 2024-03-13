@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Belajar FORM</title>
+        <link href="asset/bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <p class="h1">TI-2C:| Form dengan Bootstrap</p>
+            <form>
+                <div class="mb-3">
+                  <label for="inputNama" class="form-label">Nama Anda:</label>
+                  <input type="text" class="form-control" id="inputNama">
+                </div>
+                <div class="mb-3">
+                    <label for="inputAlamat" class="form-label">Alamat Anda:</label>
+                    <textarea class="form-control" id="inputAlamat" rows="3"></textarea>
+                  </div>
+                <div class="mb-3">
+                    <label for="inputJenisKelamin" class="form-label">Jenis Kelamin:</label>
+                    <select class="form-select">
+                        <option value="L" selecte>Pria</option>
+                        <option value="W">Wanita</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Simpan</button>
+              </form>
+        </div>
+        
+
+        <script src="asset/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
